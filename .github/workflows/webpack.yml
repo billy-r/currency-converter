@@ -33,5 +33,5 @@ jobs:
     - name: Build
       run: |
         npm install
-        npm run dev
+        npx webpack
 

@@ -1,6 +1,6 @@
 # currency-converter
 
-## Tools Used
+### Tools Used
 React + TypeScript + Vite + TailWind CSS + Drizzle ORM + Exchange Rate API + ESLint
 
 ### Instructions to Deploy

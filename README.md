@@ -7,15 +7,16 @@ React + TypeScript + Vite + TailWind CSS + Drizzle ORM + Exchange Rate API + ESL
 <sup>(must have npm installed)</sup></br>
 Navigate to the project directory with a CLI and type:
 
-> npm run dev
-
+```console
+npm run dev
+```
 Currently, these(1) official plugins are available:
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Expanding the ESLint configuration
 
-For prod deployment, we recommend updating the configuration to enable type aware lint rules:
+For prod deployment, it is recommend updating the configuration to enable type aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
 
@@ -53,4 +54,8 @@ export default tseslint.config({
     ...react.configs['jsx-runtime'].rules,
   },
 })
+```
+#### Run unit  tests
+```console
+npm run test:unit
 ```
